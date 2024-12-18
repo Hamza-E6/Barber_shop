@@ -8,6 +8,7 @@ router.post('/createAppointment', async (req, res) => {
         // Extract data from the request body
         const { firstname, lastname, cutType, email, date } = req.body;
 
+
         // Validate required fields
         if (!firstname || !lastname || !cutType || !email || !date) {
             return res.status(400).json({ message: 'All fields are required' });
