@@ -18,9 +18,6 @@ export default function Header() {
           <Link to="/schedule" className="hover:text-gray-300 transition duration-300">
             Schedule an Appointment
           </Link>
-          <Link to="/about" className="hover:text-gray-300 transition duration-300">
-            About
-          </Link>
         </nav>
         <Link
           to="/login"
@@ -43,9 +40,6 @@ export default function Header() {
             </Link>
             <Link to="/schedule" className="hover:text-gray-300 transition duration-300">
               Schedule an Appointment
-            </Link>
-            <Link to="/about" className="hover:text-gray-300 transition duration-300">
-              About
             </Link>
             <Link
               to="/login"
